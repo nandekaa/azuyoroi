@@ -103,4 +103,4 @@ client.on("message", async message => {
   }
 });
 
-client.login(proccess.env.token);
+client.login(config.token);
